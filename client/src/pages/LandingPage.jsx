@@ -30,7 +30,7 @@ function LandingPage() {
                     <a href="#" className="sign-up">Learn More</a>
                 </div>
                 <div className='hero-image-container'>
-                    <img src="/public/assets/hero-img.png" alt="hero image" className='hero-img' />
+                    <img src="/public/assets/hero-img.png" alt="hero image" style={{ maxWidth: '400px', height: 'auto' }}  className='hero-img' />
                 </div>
             </section>
             <section className='the-future-container'>
