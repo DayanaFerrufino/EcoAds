@@ -34,3 +34,14 @@ The following dependencies are required for the project:
 - Features include a prototype of the metrics, overview, consulting, add an ad.
 
 ---
+## Setup Instructions
+
+Follow the steps below to clone the repository and run the client-side application:
+
+### 1. Copy and paste the following commands into your terminal
+
+```bash
+git clone https://github.com/DayanaFerrufino/EcoAds
+cd client
+chmod +x run.sh
+./run.sh
