@@ -42,6 +42,9 @@ Follow the steps below to clone the repository and run the client-side applicati
 
 ```bash
 git clone https://github.com/DayanaFerrufino/EcoAds
+cd EcoAds
 cd client
 chmod +x run.sh
 ./run.sh
+
+
