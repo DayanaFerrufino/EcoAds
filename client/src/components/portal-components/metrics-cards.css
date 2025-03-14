@@ -22,7 +22,7 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    width: 100%; /* Ensure the container spans the full width */
+    width: 100%; 
 }
 
 /* Card Styles */
@@ -31,8 +31,8 @@ body {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 100%; /* Prevents the card from stretching beyond its container */
-    box-sizing: border-box; /* Ensures padding is included in the width */
+    max-width: 100%; 
+    box-sizing: border-box; 
 }
 
 /* Header Section */
@@ -90,11 +90,11 @@ body {
 /* Mobile Responsive: Stack cards on small screens */
 @media (max-width: 768px) {
     .metrics-card-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 cards per row on medium screens */
+        grid-template-columns: repeat(2, 1fr); 
     }
 
     .metric-card-title h3 {
-        font-size: 1rem; /* Smaller text on smaller screens */
+        font-size: 1rem; 
     }
 
     .metric-card-percentage {
@@ -106,14 +106,13 @@ body {
     }
 }
 
-/* Extra Small Screen: Stack all cards on mobile devices */
 @media (max-width: 480px) {
     .metrics-card-container {
-        grid-template-columns: 1fr; /* 1 card per row on mobile */
+        grid-template-columns: 1fr; 
     }
 
     .metric-card-title h3 {
-        font-size: 0.9rem; /* Even smaller text for mobile */
+        font-size: 0.9rem; 
     }
 
     .metric-card-percentage {
@@ -139,10 +138,9 @@ body {
 }
 
 .small-image {
-    display: none; /* Hide the small image by default */
+    display: none; 
 }
 
-/* Mobile responsive: Show the small image and hide the large image */
 @media (max-width: 768px) {
     .large-image {
         display: none; 

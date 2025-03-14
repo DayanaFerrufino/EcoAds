@@ -1,13 +1,13 @@
 import React from 'react';
 import './overview-cards.css';
 
-function OverviewCards() {
+function OverviewCards({ imgSrc, title, altText }) {
     return (
         <section className='OC-overviewcards-container'>
             <div className="OC-card" style={{ width: '25rem' }}>
-                <img className="OC-card-img-top" src="/public/assets/education-hub-img1.png" alt="Card image 1" />
+                <img className="OC-card-img-top" src={imgSrc} alt={altText} />
                 <div className="OC-card-body">
-                    <h2 className="OC-card-title">Shop Smart. Save More!</h2>
+                    <h2 className="OC-card-title">{title}</h2>
                 </div>
             </div>
         </section>

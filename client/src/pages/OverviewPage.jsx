@@ -15,15 +15,20 @@ function OverviewPage() {
             </div>
         </Container>
         <Container className='OC-mul-card-container'>
-            <OverviewCard></OverviewCard>
-            <OverviewCard></OverviewCard>
-            <OverviewCard></OverviewCard>
-            <OverviewCard></OverviewCard>
-            <OverviewCard></OverviewCard>
-            <OverviewCard></OverviewCard>
-            <OverviewCard></OverviewCard>
-            <OverviewCard></OverviewCard>
-            <OverviewCard></OverviewCard>
+            <OverviewCard
+            imgSrc="/public/assets/youtube-logo.png"
+            title="Youtube Ad Metrics"
+            altText="Card image 1"
+            ></OverviewCard>
+             <OverviewCard
+            imgSrc="/public/assets/tiktok-logo.png"
+            title="Tiktok Ad Metrics"
+            altText="Card image 1"
+            ></OverviewCard> <OverviewCard
+            imgSrc="/public/assets/facebook-logo.png"
+            title="Facebook Ad Metrics"
+            altText="Card image 1"
+            ></OverviewCard>
         </Container>
     </section>
   )

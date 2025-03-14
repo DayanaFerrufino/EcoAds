@@ -1,0 +1,22 @@
+.row {
+    justify-content: center;
+}
+
+.custom-btn {
+    background-color: #407C5A; 
+    color: white; 
+    border-color: #407C5A; 
+}
+
+
+.custom-btn:hover {
+    background-color: #10600f; 
+    border-color: #10600f;
+}
+
+
+.custom-btn:focus {
+    background-color: #10600f;
+    border-color: #10600f;
+    box-shadow: 0 0 0 0.2rem rgba(16, 93, 15, 0.5); 
+}

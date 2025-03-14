@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaUserCircle } from 'react-icons/fa';
-import './header.css'; // Import the CSS file
+import './header.css'; 
 
 const Header = () => {
     return (

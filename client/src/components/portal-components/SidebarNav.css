@@ -1,17 +1,16 @@
-/* Hide the top hamburger icon when the sidebar is open */
+
 .toggle-button {
     position: absolute;
     top: 10px;
     left: 10px;
     z-index: 2;
     cursor: pointer;
-    transition: opacity 0.3s ease; /* Smooth transition */
+    transition: opacity 0.3s ease; 
   }
   
-  /* Hide the top hamburger icon when the sidebar is open */
   .toggle-button-hidden {
     opacity: 0;
-    pointer-events: none; /* Prevent clicking */
+    pointer-events: none; 
   }
   
   @media (min-width: 768px) {

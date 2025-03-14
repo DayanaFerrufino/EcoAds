@@ -1,0 +1,56 @@
+.consultation-section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .scheduler-container {
+    background-color: white;  
+    border-radius: 15px;     
+    width: 100%;              
+    max-width: 1200px;        
+    padding: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .scheduler-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .scheduler-container p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .custom-btn {
+    background-color: #407C5A;
+    color: white;
+    border-color: #407C5A; 
+    width: 100%; 
+    font-size: 1rem; 
+    pointer-events: none; 
+  }
+  
+  /* Hover state for the button */
+  .custom-btn:hover {
+    background-color: #10600f;
+    border-color: #10600f;
+  }
+  
+  /* For mobile responsiveness */
+  @media (max-width: 768px) {
+    .scheduler-container {
+      padding: 20px;
+    }
+  
+    .scheduler-container h2 {
+      font-size: 1.5rem;
+    }
+  
+    .scheduler-container p {
+      font-size: 0.9rem;
+    }
+  }
+  

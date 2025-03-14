@@ -17,7 +17,6 @@ function SidebarNav() {
 
     return (
         <div style={{ display: 'flex' }}>
-            {/* Sidebar Wrapper with Sticky Positioning */}
             <div
                 style={{
                     height: `calc(100vh - ${HEADER_HEIGHT})`,
@@ -45,7 +44,7 @@ function SidebarNav() {
                                     },
                                 }}
                             >
-                                <MenuItem icon={<FontAwesomeIcon icon={faCirclePlus} />} component={<Link to="/portal/add" />} active={location.pathname === '/portal/add'}>
+                                <MenuItem icon={<FontAwesomeIcon icon={faCirclePlus} />} component={<Link to="/portal/Add" />} active={location.pathname === '/portal/Add'}>
                                     Add Ad
                                 </MenuItem>
                                 <MenuItem icon={<FontAwesomeIcon icon={faHouse} />} component={<Link to="/portal/" />} active={location.pathname === '/portal/overview'}>
@@ -54,7 +53,7 @@ function SidebarNav() {
                                 <MenuItem icon={<FontAwesomeIcon icon={faChartColumn} />} component={<Link to="/portal/Metrics" />} active={location.pathname === '/portal/Metrics'}>
                                     Metrics
                                 </MenuItem>
-                                <MenuItem icon={<FontAwesomeIcon icon={faHeadset} />} component={<Link to="/portal/consulting" />} active={location.pathname === '/portal/consulting'}>
+                                <MenuItem icon={<FontAwesomeIcon icon={faHeadset} />} component={<Link to="/portal/consultation" />} active={location.pathname === '/portal/consultation'}>
                                     Consulting
                                 </MenuItem>
                                 <MenuItem icon={<FontAwesomeIcon icon={faBookOpen} />} component={<Link to="/portal/education" />} active={location.pathname === '/portal/education'}>
@@ -77,7 +76,7 @@ function SidebarNav() {
                 </Sidebar>
             </div>
 
-            {/* Toggle Button - Ensure visibility */}
+            {/* Toggle Button -  visibility */}
             <div
                 className={`toggle-button ${toggled ? 'toggle-button-hidden' : ''}`}
                 onClick={toggleSidebar}

@@ -8,12 +8,12 @@
 }
 
 .EH-card {
-    width: 25rem; /* Increased width for a more horizontal card */
-    height: 20rem; /* Fixed height for the card */
-    border-radius: 10px; /* Slightly rounded corners */
-    overflow: hidden; /* To keep images and content inside the card */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for card effect */
-    background-color: transparent; /* Make the background transparent */
+    width: 25rem; 
+    height: 20rem; 
+    border-radius: 10px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    background-color: transparent; 
     display: flex;
     flex-direction: column;
     text-align: left;

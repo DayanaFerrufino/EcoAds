@@ -5,14 +5,11 @@ import './Portal.css';
 import OverviewPage from './OverviewPage';
 import { Routes, Route } from 'react-router-dom';
 import SidebarNav from '../components/portal-components/SidebarNav';
-import Header from '../components/portal-components/header'; // Import the header
+import Header from '../components/portal-components/header'; 
 import Metrics from './Metrics';
-
-const pageLayout = () => (
-    <>
-      <SidebarNav />
-    </>
-  );
+import AddAd from './AddAd';
+import Consultations from './Consultations';
+import Education from './Education';
 
 function Portal() {
     return (
@@ -22,8 +19,12 @@ function Portal() {
                 <SidebarNav /> 
                 <div style={{ flex: 1, padding: '20px' }}>
                     <Routes>
+                        <Route path="add" element={<AddAd />} />
                         <Route path="metrics" element={<Metrics />} />
                         <Route path="overviewpage" element={<OverviewPage />} />
+                        <Route path="consultation" element={<Consultations />} />
+                        <Route path="education" element={<Education />} />
+                        <Route path="settings" element={<Education />} />
                         <Route index element={<OverviewPage />} /> 
                     </Routes>
                 </div>
