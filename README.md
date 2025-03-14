@@ -13,6 +13,10 @@ Note: This is a static prototype of proposed website
 - **Other Tools:** React-Router, Docker (for containerization)  
 ---
 
+## Required Technologies
+- **Docker:**: Docker is necessary to run this program 
+---
+
 ## Dependencies
 The following dependencies are required for the project:
 
