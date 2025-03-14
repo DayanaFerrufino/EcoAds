@@ -1,0 +1,47 @@
+.EducationHubCards-container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.EH-card {
+    width: 25rem; /* Increased width for a more horizontal card */
+    height: 20rem; /* Fixed height for the card */
+    border-radius: 10px; /* Slightly rounded corners */
+    overflow: hidden; /* To keep images and content inside the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Light shadow for card effect */
+    background-color: transparent; /* Make the background transparent */
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.EH-card-img-top {
+    width: 100%;
+    height: 65%; 
+    object-fit: cover; 
+}
+
+.EH-card-body {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    color: white; 
+}
+
+.EH-card-title {
+    font-size: 1rem; 
+    font-weight: bold;
+    margin: 0; 
+}
+
+.EH-card-author {
+    font-size: 1rem;
+    font-style: italic; 
+    margin: 0; 
+    color: #ccc; 
+}

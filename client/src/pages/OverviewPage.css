@@ -1,0 +1,127 @@
+/* Ensure the hero section takes some margin and padding */
+.overview-page-container {
+    padding: 40px 0; 
+}
+
+.overview-hero-section {
+    background: linear-gradient(to right, #7CB580, #A6D3A0, #D0F0C0);
+    border-radius: 20px; /* Rounded corners */
+    padding: 60px;
+    margin: 0 auto;
+    max-width: 1500px;
+    height: 35vh;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+    align-items: flex-start;
+}
+
+.hero-content h1 {
+    text-align: left;
+    font-size: 2rem; 
+    margin: 0;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: .9rem;
+    margin: 0;
+    text-align: left;
+}
+
+.create-ad {
+    display: inline-block;
+    padding: 8px 35px;
+    border-radius: 26px;
+    font-size: .8rem;
+    text-decoration: none;
+    font-weight: 400;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+    background-color: #407C5A;
+    color: white;
+}
+
+.create-ad:hover {
+    background-color: #10600f; /* Darker green on hover */
+}
+
+@media (max-width: 1024px) {
+    .overview-hero-section {
+        padding: 40px; 
+        height: auto;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem; 
+    }
+
+    .hero-content p {
+        font-size: .85rem; 
+    }
+
+    .create-ad {
+        font-size: .9rem; 
+        padding: 10px 25px; 
+    }
+}
+
+/* For smaller screens (mobile phones) */
+@media (max-width: 768px) {
+    .overview-hero-section {
+        padding: 20px;
+        height: auto;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: .8rem; 
+    }
+
+    .create-ad {
+        font-size: .9rem;
+        padding: 8px 20px; 
+    }
+}
+
+/* For very small screens (portrait phones) */
+@media (max-width: 480px) {
+    .overview-hero-section {
+        padding: 15px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.3rem; 
+        text-align: center; /* Centering h1 */
+    }
+
+    .hero-content {
+        align-items: center;  /* Center align the children */
+        text-align: center;   /* Center all text in the container */
+    }
+
+    .hero-content p {
+        font-size: .75rem;
+        text-align: center; /* Centering paragraph */
+    }
+
+    .create-ad {
+        font-size: .85rem;
+        padding: 6px 15px;
+        text-align: center; /* Centering button */
+    }
+}
+
+.OC-mul-card-container {
+    margin-top: 6vh;
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    justify-content: space-evenly; /* Even spacing between cards */
+    gap: 20px; /* Space between cards */
+}

@@ -1,0 +1,48 @@
+/* Hide the top hamburger icon when the sidebar is open */
+.toggle-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
+    cursor: pointer;
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  /* Hide the top hamburger icon when the sidebar is open */
+  .toggle-button-hidden {
+    opacity: 0;
+    pointer-events: none; /* Prevent clicking */
+  }
+  
+  @media (min-width: 768px) {
+    .toggle-button {
+      display: none;
+    }
+  }
+  
+  /* Collapse button for larger screens */
+  .collapse-button {
+    position: absolute;
+    bottom: 20px;
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  /* Hide the collapse button on smaller screens */
+  @media (max-width: 767px) {
+    .collapse-button {
+      display: none;
+    }
+  }
+  
+  .pro-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  
+  .ps-sidebar-container {
+    background-color: #ffffff !important;
+  }
+  
